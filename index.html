@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dion</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <style media="screen">
+
+      body {
+        background: rgb(0,0,0);
+        background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(32,34,36,1) 100%, rgba(0,212,255,1) 100%);
+      }
+
+      .mac {
+        position: fixed;
+        left: calc( 50% - (300px / 2) );
+        top: calc( 50% - (178px / 2) );
+        width: 300px;
+        height: 178px;
+      }
+
+      .dion:after {
+        font-family: 'Lato', sans-serif;
+        text-shadow: 0px 2px 5px #000;
+        content: "Dion";
+        position: absolute;
+        top: 118px;
+        color: #A9ACAD;
+        font-size: 79px;
+        left: 0;
+        width: 100%;
+        height: 200px;
+        z-index: 2;
+        text-align: center;
+        font-weight: 900;
+      }
+
+      .dion {
+        position: fixed;
+        width: 200px;
+        height: 35px;
+        box-shadow: 0 29px 498px #FFF;
+        background: #FFF;
+        top: calc( 50% );
+        left: calc(50% - 100px );
+      }
+
+      .inter {
+        position: fixed;
+        width: 220px;
+        height: 140px;
+        top: calc( 50% - 76px );
+        left: calc(50% - 110px );
+        z-index: 1;
+    }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="dion"></div>
+    <img class="inter" src="./inter.gif"/>
+    <img class="mac" src="./mac.webp" alt="dion"/>
+
+  </body>
+</html>

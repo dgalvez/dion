@@ -130,7 +130,7 @@
             const icsContent = ical.toString();
             const downloadLink = document.createElement('a');
             downloadLink.href = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(icsContent);
-            downloadLink.download = 'eventos.ics';
+            downloadLink.download = 'events.ics';
 
             downloadLink.click();
         });
